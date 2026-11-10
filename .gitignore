@@ -1,0 +1,75 @@
+# ==========================================
+# Dependencies
+# ==========================================
+node_modules/
+*/node_modules/
+client/node_modules/
+server/node_modules/
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.local
+.env.*.local
+server/.env
+client/.env
+!.env.example
+!server/.env.example
+
+# ==========================================
+# Production Builds & Bundler Output
+# ==========================================
+dist/
+build/
+client/dist/
+.vite/
+
+# ==========================================
+# Database & Local Runtime Data
+# ==========================================
+database.sqlite
+server/database.sqlite
+*.sqlite
+*.sqlite3
+*.db
+
+# ==========================================
+# Uploaded User Receipts (preserve .gitkeep)
+# ==========================================
+server/uploads/*
+!server/uploads/.gitkeep
+
+# ==========================================
+# Tesseract OCR Cached Models & Cache
+# ==========================================
+tessdata/
+*.traineddata
+*.traineddata.gz
+eng.traineddata*
+
+# ==========================================
+# Logs & Process Output
+# ==========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# OS & Editor Files
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+

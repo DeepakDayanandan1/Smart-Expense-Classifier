@@ -1,0 +1,23 @@
+{
+  "name": "smart-expense-classifier",
+  "version": "1.0.0",
+  "description": "Smart Expense Classifier + Receipt Scanner (React, Node.js, PostgreSQL, Tesseract.js, Gemini Flash)",
+  "scripts": {
+    "start": "node server/src/index.js",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "expense-tracker",
+    "ocr",
+    "gemini",
+    "receipt-scanner",
+    "react",
+    "postgresql",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
